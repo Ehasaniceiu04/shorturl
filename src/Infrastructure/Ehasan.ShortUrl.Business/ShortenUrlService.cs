@@ -55,14 +55,14 @@ namespace Ehasan.ShortUrl.Business
          };
 
 
-        string IShortenUrlService.ShortenUrl(ShortenUrlInputModel shortenUrlInputModel)
+        string IShortenUrlService.AlterUrl(ShortenUrlInputModel shortenUrlInputModel)
         {
             try
             {
                 if (shortenUrlInputModel == null || string.IsNullOrWhiteSpace(shortenUrlInputModel.Url))
-                    return "Url should not be null or empty";
+                    throw new Exception("Url should not be null or empty");
                 if (!_isValidUrl(shortenUrlInputModel.Url))
-                    return "Url is invalid";
+                    throw new Exception("Url is invalid");
 
                 return this.urlCommandFactory.CreateCommand(GetServiceName(shortenUrlInputModel.Url)).ConvertUrl(shortenUrlInputModel.Url);
             }

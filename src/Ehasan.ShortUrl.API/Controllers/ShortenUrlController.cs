@@ -23,13 +23,14 @@ namespace Ehasan.ShortUrl.API.Controllers
         
         [HttpPost]
         [ProducesResponseType(200, Type = typeof(string))]
+        [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         public IActionResult Post([FromBody]ShortenUrlInputModel shortenUrlInputModel)
         {
             var url = string.Empty;
             try
             {
-                url=this.shortenUrlService.ShortenUrl(shortenUrlInputModel);
+                url=this.shortenUrlService.AlterUrl(shortenUrlInputModel);
                 if(string.IsNullOrWhiteSpace(url))
                 {
                     return NotFound();
@@ -39,7 +40,7 @@ namespace Ehasan.ShortUrl.API.Controllers
             catch (Exception exp)
             {
                 //TODO: Log exception here
-                return NotFound();
+                return BadRequest(exp.Message);
                 
             }
            

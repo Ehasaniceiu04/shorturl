@@ -1,9 +1,0 @@
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\bin\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.deps.json
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\bin\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.dll
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\bin\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.pdb
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\obj\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.csprojResolveAssemblyReference.cache
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\obj\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.csproj.CoreCompileInputs.cache
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\obj\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.AssemblyInfoInputs.cache
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\obj\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.AssemblyInfo.cs
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\obj\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.dll
-F:\demo\swagger\Ehasan.ShortUrl\src\Tests\Ehasan.ShortUrl.API.Tests\obj\Debug\netcoreapp2.0\Ehasan.ShortUrl.API.Tests.pdb

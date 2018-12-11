@@ -8,6 +8,6 @@ namespace Ehasan.ShortUrl.Core.Business_Interface
 {
     public interface IShortenUrlService
     {
-        string ShortenUrl(ShortenUrlInputModel shortenUrlInputModel);
+        string AlterUrl(ShortenUrlInputModel shortenUrlInputModel);
     }
 }
