@@ -1,2 +1,2 @@
 # shortutl
-# shorturl
+A Url Shortening Service
