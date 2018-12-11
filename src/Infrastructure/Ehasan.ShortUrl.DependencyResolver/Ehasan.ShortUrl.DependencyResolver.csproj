@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ehasan.ShortUrl.Business\Ehasan.ShortUrl.Business.csproj" />
+    <ProjectReference Include="..\Ehasan.ShortUrl.DataRepositories\Ehasan.ShortUrl.DataRepositories.csproj" />
+  </ItemGroup>
+
+</Project>
