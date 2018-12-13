@@ -1,4 +1,4 @@
-# shortutl
+# shorturl
 A Url Shortening Service.
 
 This app is able to both long urls as input and shorten them as well as to inflate a shortened url to original form.
