@@ -1,11 +1,10 @@
-﻿using Ehasan.ShortUrl.Core.Business_Interface;
+﻿using Ehasan.Core.Repository_Interfaces;
+using Ehasan.ShortUrl.Core.Business_Interface;
+using Ehasan.ShortUrl.Core.Entities;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using Ehasan.ShortUrl.Core.Entities;
-using System.Linq.Expressions;
-using BUZ.Authorization.Core.Repository_Interfaces;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace Ehasan.ShortUrl.Business.ServiceQuery
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace BUZ.Authorization.Core.Repository_Interfaces
+namespace Ehasan.Core.Repository_Interfaces
 {
     public interface IReadOnlyUnitOfWork : IDisposable
     {

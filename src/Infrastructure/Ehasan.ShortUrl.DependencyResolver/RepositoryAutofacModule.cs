@@ -1,9 +1,9 @@
 ﻿using Autofac;
-using BUZ.Authorization.Core.Repository_Interfaces;
+using Ehasan.Core.Repository_Interfaces;
 using Ehasan.ShortUrl.DataRepositories;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BUZ.Authorization.DependencyResolver
+namespace Ehasan.ShortUrl.DependencyResolver
 {
     public static class RepositoryAutofacModule
     {

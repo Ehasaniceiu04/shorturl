@@ -1,9 +1,6 @@
-﻿using BUZ.Authorization.Core.Repository_Interfaces;
+﻿using Ehasan.Core.Repository_Interfaces;
 using Ehasan.ShortUrl.DataRepositories.Context;
 using Ehasan.ShortUrl.DataRepositories.Repository;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 

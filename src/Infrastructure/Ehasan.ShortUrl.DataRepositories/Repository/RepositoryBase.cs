@@ -1,11 +1,10 @@
-﻿using BUZ.Authorization.Core.Repository_Interfaces;
+﻿using Ehasan.Core.Repository_Interfaces;
 using Ehasan.ShortUrl.DataRepositories.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 
 namespace Ehasan.ShortUrl.DataRepositories.Repository
 {

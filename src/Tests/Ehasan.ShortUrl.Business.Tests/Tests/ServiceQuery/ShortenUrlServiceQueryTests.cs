@@ -1,14 +1,7 @@
-﻿using BUZ.Authorization.Core.Repository_Interfaces;
+﻿using Ehasan.Core.Repository_Interfaces;
 using Ehasan.ShortUrl.Core.Business_Interface;
-using Ehasan.ShortUrl.Core.Entities;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
-using System.Linq;
-using Ehasan.ShortUrl.Business.ServiceQuery;
-using FluentAssertions;
 
 namespace Ehasan.ShortUrl.Business.Tests.Tests.ServiceQuery
 {

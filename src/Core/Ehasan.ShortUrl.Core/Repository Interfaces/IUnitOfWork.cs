@@ -1,8 +1,7 @@
-﻿using System;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace BUZ.Authorization.Core.Repository_Interfaces
+namespace Ehasan.Core.Repository_Interfaces
 {
     public interface IUnitOfWork : IReadOnlyUnitOfWork
     {

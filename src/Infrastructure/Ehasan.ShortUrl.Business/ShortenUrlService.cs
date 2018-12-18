@@ -1,17 +1,10 @@
-﻿using BUZ.Authorization.Core.Repository_Interfaces;
+﻿using Ehasan.Core.Repository_Interfaces;
+using Ehasan.ShortUrl.Business.Command;
 using Ehasan.ShortUrl.Core.Business_Interface;
-using Ehasan.ShortUrl.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Linq;
-using System.Linq.Expressions;
 using Ehasan.ShortUrl.Core.Model;
 using Microsoft.Extensions.Options;
-using Autofac.Core;
-using Autofac;
-using Ehasan.ShortUrl.Business.Command;
+using System;
+using System.Text.RegularExpressions;
 
 namespace Ehasan.ShortUrl.Business
 {

@@ -5,7 +5,7 @@ using Ehasan.ShortUrl.Business.ServiceQuery;
 using Ehasan.ShortUrl.Core.Business_Interface;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BUZ.Authorization.DependencyResolver
+namespace Ehasan.ShortUrl.DependencyResolver
 {
     public static class BusinessAutofacModule
     {

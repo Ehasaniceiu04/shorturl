@@ -1,23 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Ehasan.ShortUrl.DataRepositories.Context;
-using Microsoft.EntityFrameworkCore;
-using BUZ.Authorization.Core.Repository_Interfaces;
-using Ehasan.ShortUrl.DataRepositories;
-using Autofac;
-using BUZ.Authorization.DependencyResolver;
+﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Ehasan.ShortUrl.Core.Model;
-using Microsoft.Extensions.PlatformAbstractions;
+using Ehasan.ShortUrl.DependencyResolver;
+using Ehasan.ShortUrl.DataRepositories.Context;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
+using System;
 
 namespace Ehasan.ShortUrl.API
 {

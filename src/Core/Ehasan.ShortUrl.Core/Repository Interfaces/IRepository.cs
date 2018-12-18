@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace BUZ.Authorization.Core.Repository_Interfaces
+namespace Ehasan.Core.Repository_Interfaces
 {
     /// <summary>
     /// Repository interface that follows Repository pattern. Exposes basic CRUD
