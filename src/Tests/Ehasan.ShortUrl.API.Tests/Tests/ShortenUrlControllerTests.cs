@@ -40,7 +40,7 @@ namespace Ehasan.ShortUrl.API.Tests.Tests
             var shortenUrl = new ShortenUrlInputModel() { Url = "https://shortenurl.com/85249ecd-943c-4e53-8a03-d5a412b1d09b" };
             this.shortenUrlService.Setup(x => x.AlterUrl(It.IsAny<ShortenUrlInputModel>())).Returns(alterUrl);
             var result = sut.Post(shortenUrl) as OkObjectResult;
-            result.StatusCode.Should().Be(200);
+            result.StatusCode.Should().Be(201);
             result.Value.Should().Be(alterUrl);
         }
         [Fact]
